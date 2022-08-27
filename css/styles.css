@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+.intro .title {
+    font-size: 64px;
+    text-align: center;
+    color: mediumturquoise;
+}
+  h3 {
+   margin-top: 100px;
+             
+ }
+ p em {
+    font-size: 30px;
+  }
+a {
+  text-decoration: none;
+}
+ .big-blue-text {
+   color: blue;
+   font-size: 40px;
+             }
+ .centered-text {
+   text-align: center;
+             }
+ .intro {
+   background-color: #eee;
+   border-radius: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 600px;
+   text-align: center;
+
+ }
+ .pages {
+  background-color: rgba(128, 240, 0,20%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  box-shadow: 10px 10px 10px rgb(21, 216, 151);
+ }
+ .g-link {
+   font-family: 'custom';
+   text-align: center;
+   padding: 20px;
+   border: 1px solid #eee;
+   background-color: #fafafa;
+   border-radius: 20px;
+   margin-top: 100px;
+   display: block;
+   width: 400px;
+   text-align: center;
+ }
+.intro .explain{
+  font-family: 'Times New Roman', Times, serif;
+}
+.intro .title{
+  font-family: 'Shadows Into Light', cursive;
+}
+.red {
+  color:red
+}
+@font-face {
+  font-family: 'custom';
+  src: url(../font/Lobster-Regular.ttf);
+}
+.p1 {
+  border: 3px solid rgb(21, 216, 151);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 255, 149);
+} 
+.linkcontainer {
+  text-align: center;
+}
+.linkcontainer a:not(:last-child) {
+  margin-right: 20px;
+}
+.quote {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  margin-top: 75px;
+}
+
+.figure {
+  margin-top: 50px;
+}
+
+.qmark {
+  font-size: 300%;
+}
+.open-qmark{
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+}
+.close-qmark{
+  position: relative;
+  top: 80px;
+  margin-left: 15px;
+}
